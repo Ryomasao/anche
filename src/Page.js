@@ -6,9 +6,10 @@ const Page = ({
   match: {
     params: { id },
   },
+  pageKey,
 }) => (
   <Wrapper>
-    <div>Page:{id}</div>
+    <div>Page:{pageKey}</div>
     <div>
       <Link to={`/${Number(id) + 1}`}>next page</Link>
     </div>
@@ -19,9 +20,8 @@ const Page = ({
 )
 
 const Wrapper = styled.div`
-  height: 100vh;
+  height: 50vh;
   background-color: #e8f5e9;
-
 `
 
 export default Page
