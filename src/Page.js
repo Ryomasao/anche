@@ -20,8 +20,11 @@ const Page = ({
 )
 
 const Wrapper = styled.div`
-  height: 50vh;
+  height: 100vh;
   background-color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 
 export default Page
