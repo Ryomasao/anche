@@ -23,8 +23,10 @@ const Wrapper = styled.div`
   height: 100vh;
   background-color: #e8f5e9;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 32px;
 `
 
 export default Page
