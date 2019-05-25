@@ -58,7 +58,7 @@ const PageWrapper = styled.div`
     animateStart &&
     css`
       transform: translateX(-100%);
-      transition: all 1s;
+      transition: all 0.5s;
     `};
 `
 
